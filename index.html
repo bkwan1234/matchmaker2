@@ -1,1 +1,42 @@
-<h1>Matchmaker</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compatibility Quiz</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compatibility Quiz</h1>
+        <p>Answer these questions to calculate your compatibility score!</p>
+
+        <!-- Question form -->
+        <form id="quiz-form">
+            <div class="question" id="question1">
+                <label for="q1">Question 1: Do you like outdoor activities? (yes or no)</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="question" id="question2">
+                <label for="q2">Question 2: Do you enjoy reading books? (yes or no)</label>
+                <input type="text" id="q2" name="q2">
+            </div>
+            <div class="question" id="question3"></div>
+                <label for="q3">Question 3: Do you like sports? (yes or no)</label>
+                <input type="text" id="q3" name="q3">
+            <div class="question" id="question4"></div>
+                <label for="q4">Question 4: Do you like pets? (yes or no)</label>
+                <input type="text" id="q4" name="q4">
+            </div>
+        </div>
+
+            <button type="submit">Submit Answers</button>
+        </form>
+
+        <!-- Result section -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
