@@ -1,7 +1,7 @@
 // Constants for validation and scoring
 const VALID_RESPONSES = ["yes", "no"];
 const MAX_SCORE = 100;
-const QUESTION_COUNT = 5;
+const QUESTION_COUNT = 4;
 
 // Function to validate input
 function validate(input) {
